@@ -10,43 +10,63 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="../css/reset.css" />
-    <link rel="stylesheet" href="../css/main.css" />
+    <script
+      src="https://kit.fontawesome.com/e881e15726.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
     <header>
       <nav>
-        <img class="logo" src="../images/hexartlogo.png" alt="Hex Art Logo" />
-        <ul>
-          <li><a href="../index.html" aria-disabled="true">Home</a></li>
-          <li><a href="../about.html">About</a></li>
-          <li><a href="../service.html">Services</a></li>
-          <li><a href="../portfolio.html">Portfolio</a></li>
-          <li><a href="../contact.html">Contact</a></li>
+        <img class="logo" src="/images/hexartlogo.png" alt="Hex Art Logo" />
+        <ul class="nav">
+          <li class="nav-item">
+            <a href="/index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="/about.html" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="/service.html" class="nav-link">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="/portfolio.html" class="nav-link disabled">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="/contact.html" class="nav-link">Contact</a>
+          </li>
         </ul>
       </nav>
     </header>
-    <main>
-      <div class="page-center">
-        <h3>images</h3>
-        <div class="image-grid">
-          <img src="../images/kirby.png" class="image-grid" />
-          <img src="../images/melleniumRod1.jpg" class="image-grid" />
-          <img src="../images/toonRod (1).jpg" class="image-grid" />
-          <img src="../images/aqua_render.png" class="image-grid" />
-          <img src="../images/blazeHeatnix.png" class="image-grid" />
-          <img src="../images/HKMG.png" class="image-grid" />
-          <img src="../images/keybladeGraveyard.png" class="image-grid" />
-          <img src="../images/seaShack.png" class="image-grid" />
+    <div class="center-page">
+      <main>
+        <div class="page-center">
+          <h3 class="display-4 ">Projects</h3>
+          <div class="image-grid">
+            <img src="/images/kirby.png" class="image-grid" />
+            <img src="/images/melleniumRod1.jpg" class="image-grid" />
+            <img src="/images/toonRod (1).jpg" class="image-grid" />
+            <img src="/images/aqua_render.png" class="image-grid" />
+            <img src="/images/blazeHeatnix.png" class="image-grid" />
+            <img src="/images/HKMG.png" class="image-grid" />
+            <img src="/images/keybladeGraveyard.png" class="image-grid" />
+            <img src="/images/seaShack.png" class="image-grid" />
+          </div>
         </div>
-      </div>
-    </main>
-    <footer class="socials">
-      <ul>
-        <li><button>ig</button></li>
-        <li><button>artstation</button></li>
-        <li><button>twitch</button></li>
-      </ul>
-    </footer>
+      </main>
+      <footer class="text-center">
+        <div class="black-banner navbar justify-content-center">
+            <a class="btn text-white btn-floating m-2" href="https://www.instagram.com/hex_arts/?hl=en">
+              <i class="fa-brands fa-artstation"></i>
+            <a class="btn text-white btn-floating m-2" href="https://www.artstation.com/mohammedkhalil">
+              <i class="fa-brands fa-instagram"></i>
+            <a class="btn text-white btn-floating m-2" href="https://www.twitch.tv/thehexghosts">
+              <i class="fa-brands fa-twitch"></i>
+            </a>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>

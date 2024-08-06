@@ -10,46 +10,64 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="../css/reset.css" />
-    <link rel="stylesheet" href="../css/main.css" />
+    <script
+      src="https://kit.fontawesome.com/e881e15726.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
-    <div>
+    <div class="center-page">
       <header>
-        <!-- container to hold the nav content into -->
-        <div class="container">
-          <!-- Navigation bar that will be used in -->
-          <nav class="navbar navbar-expand-lg navbar-dark">
-            <img
-              class="logo"
-              src="../images/hexartlogo.png"
-              alt="Hex Art Logo"
-            />
-            <ul>
-              <li><a href="index.html" aria-disabled="true">Home</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="service.html">Services</a></li>
-              <li><a href="portfolio.html">Portfolio</a></li>
-              <li><a href="contact.html">Contact</a></li>
-            </ul>
-          </nav>
-        </div>
+        <img src="/images/hexartlogo.png" class=" logo navbar navbar-brand" alt="Hex Art Logo" />
+        <!-- Navigation bar that will be used in -->
+        <nav class="navbar navbar-expand-lg bg-black">
+          <ul class="nav navbar-expand-lg">
+            <li class="nav-item">
+              <a href="/index.html" class="nav-link disabled">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="/about.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="/service.html" class="nav-link">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="/portfolio.html" class="nav-link">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a href="/contact.html" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </nav>
       </header>
 
       <main class="intro-page">
         <div class="center-page">
-          <h1 class="display-1">View our projects</h1>
-          <p>Hex Arts focuses mostly on 3D modelling and sculpting,</p>
-          <button>View more</button>
+          <div class="info-position justify-content-start">
+            <h1 class="display-3">View our projects</h1>
+            <p class="fs-1">Hex Arts focuses mostly on 3D modeling and 
+              sculpting </p>
+            <p class="fs-1">
+              Below you can see more 
+              through the portfolio
+            </p>
+            <button class="btn btn-danger justify-content-center">View more</button>
+          </div>
         </div>
       </main>
 
-      <footer class="socials">
-        <ul>
-          <li>ig</li>
-          <li>artstation</li>
-          <li>twitch</li>
-        </ul>
+      <footer class="text-center">
+        <div class="black-banner navbar justify-content-center">
+            <a class="btn text-white btn-floating m-2" href="https://www.instagram.com/hex_arts/?hl=en">
+              <i class="fa-brands fa-artstation"></i>
+            <a class="btn text-white btn-floating m-2" href="https://www.artstation.com/mohammedkhalil">
+              <i class="fa-brands fa-instagram"></i>
+            <a class="btn text-white btn-floating m-2" href="https://www.twitch.tv/thehexghosts">
+              <i class="fa-brands fa-twitch"></i>
+            </a>
+        </div>
       </footer>
     </div>
   </body>
