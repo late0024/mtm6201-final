@@ -4,38 +4,71 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="/css/reset.css" />
-    <link rel="stylesheet" href="/css/main.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
     <header>
-      <nav>
-        <img class="logo" src="/images/hexartlogo.png" alt="Hex Art Logo" />
+      <img class="logo" src="./images/hexartlogo.png" alt="Hex Art Logo" />
+      <nav class="navbar bg-body-tertiary">
         <ul>
-          <li><a href="index.html" aria-disabled="true">Home</a></li>
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/service.html">Services</a></li>
-          <li><a href="/portfolio.html">Portfolio</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li><a href="./index.html" aria-disabled="true">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./service.html">Services</a></li>
+          <li><a href="./portfolio.html">Portfolio</a></li>
+          <li><a href="./contact.html">Contact</a></li>
         </ul>
       </nav>
     </header>
     <main>
       <div class="center-page">
-        <div class="form-group"><label for="exampleInputEmail"</div>
+        <div class="contact-us">
+          <img src="/images/Artboard 1.png" alt="contact us" />
+          <h2 class="title-text">Dont hesitate to reach out!</h2>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail">Name</label>
+          <input
+            type="text"
+            class="form-label"
+            id="inputName"
+            aria-describedby="nameHelp"
+            placeholder="Enter Name"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="inputEmail">Email</label>
+          <input
+            type="email"
+            class="form-label"
+            id="exampleInputEmail"
+            aria-describedby="emailHelp"
+            placeholder="Enter email"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="formInputTextArea">Message</label>
+          <input
+            type="text"
+            class="form-label"
+            id="inputMessage"
+            aria-describedby="messageHelp"
+            placeholder="Enter Message"
+          />
+        </div>
       </div>
     </main>
     <footer class="socials">
       <ul>
-        <li>ig</li>
-        <li>artstation</li>
-        <li>twitch</li>
+        <li><button>ig</button></li>
+        <li><button>artstation</button></li>
+        <li><button>twitch</button></li>
       </ul>
     </footer>
   </body>

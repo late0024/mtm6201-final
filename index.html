@@ -4,43 +4,49 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="/css/reset.css" />
-    <link rel="stylesheet" href="/css/main.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/main.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <img class="logo" src="/images/hexartlogo.png" alt="Hex Art Logo" />
+    <div>
+      <header>
+        <!-- container to hold the nav content into -->
+        <div class="container">
+          <!-- Navigation bar that will be used in -->
+          <nav class="navbar navbar-expand-lg navbar-dark">
+            <img class="logo" src="/images/hexartlogo.png" alt="Hex Art Logo" />
+            <ul>
+              <li><a href="index.html" aria-disabled="true">Home</a></li>
+              <li><a href="/about.html">About</a></li>
+              <li><a href="/service.html">Services</a></li>
+              <li><a href="/portfolio.html">Portfolio</a></li>
+              <li><a href="/contact.html">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <main class="intro-page">
+        <div class="center-page">
+          <h1 class="display-1">View our projects</h1>
+          <p>Hex Arts focuses mostly on 3D modelling and sculpting,</p>
+          <button>View more</button>
+        </div>
+      </main>
+
+      <footer class="socials">
         <ul>
-          <li><a href="index.html" aria-disabled="true">Home</a></li>
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/service.html">Services</a></li>
-          <li><a href="/portfolio.html">Portfolio</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li>ig</li>
+          <li>artstation</li>
+          <li>twitch</li>
         </ul>
-      </nav>
-    </header>
-
-    <main class="intro_text">
-      <div class="center-page">
-        <h1>View our projects</h1>
-        <p>Hex Arts focuses mostly on 3D modelling and sculpting,</p>
-        <button>View more</button>
-      </div>
-    </main>
-
-    <footer class="socials">
-      <ul>
-        <li>ig</li>
-        <li>artstation</li>
-        <li>twitch</li>
-      </ul>
-    </footer>
+      </footer>
+    </div>
   </body>
 </html>
