@@ -5,20 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <!-- <link rel="stylesheet" href="./css/main.css" /> -->
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav class="navbar navbar-expand-lg bg-primarys navbar-dark">
         <div class="container-fluid">
+          <!-- my logo as a navbrand -->
           <a class="navbar-brand"  href="./index.html">
             <img src="./images/hexartlogo.png" width="50px" height="45px" alt="hex art logo">
           </a>
+          <!-- hamburger menu js and bootstrap -->
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <div class="collapse navbar-collapse navbar-expand-lg" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-lg-end">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
               </li>
@@ -40,10 +42,10 @@
       </nav>
       </header>
 
-      <main class="d-flex justify-content-center">
+      <main class="d-flex justify-content-center d-lg-flex flex-lg-row bg-dark p-3">
         <!-- both buttons in the cards below will send you to the same page because i dont have the animations page and content ready at the moment -->
         <div class="center-page">
-            <div class="card" style="width: 23rem;">
+            <div class="card bg-primarys text-white m-1" style="width: 23rem;">
               <img src="./images/melleniumRod1.jpg" class="card-img-top" alt="Millenium Rod">
               <div class="card-body">
                 <h5 class="card-title text-center">2D and 3D rendering</h5>
@@ -52,7 +54,7 @@
               </div>
             </div>
             
-            <div class="card" style="width: 23rem;">
+            <div class="card bg-primarys text-white m-1" style="width: 23rem;">
               <img src="./images/blazeHeatnix.png" class="card-img-top" alt="Millenium Rod">
               <div class="card-body">
                 <h5 class="card-title">Animation and Turntables</h5>
@@ -62,10 +64,10 @@
             </div>
         </div>
       </main>
-      <footer class="text-center">
-        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <footer class="text-center fixed-bottom">
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom bg-primarys text-white">
           <div>
-            <span class="text-dark">Here are some of our social media, Stay connected</span>
+            <span class="text-white">Here are some of our social media, Stay connected</span>
           </div>
           <div>
             <a href="https://www.artstation.com/mohammedkhalil" class="me-4 text-reset">

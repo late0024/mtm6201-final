@@ -1,59 +1,9 @@
-/* body {
-  background-color: #191818;
-  color: white;
-}
-p {
-  font-size: 20px;
-}
-img {
-  width: 90%;
-}
-header {
-  display: flex;
-  flex-direction: row;
-}
-.logo {
-  display: flex;
-  width: 20%;
-  height: 20%;
-  justify-self: center;
-  align-items: center;
+.bg-primarys {
+  background-color: #141414;!important
 }
 
-.intro-page {
-  background-image: url("/images/melleniumRod1.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 25%;
-  height: 86vh;
+.bg-pic{
+    background-image:url("/images/melleniumRod1.jpg");
+    height:100vh;
+    background-position: 25%;
 }
-.center-page {
-  margin: auto;
-  width: 95%;
-}
-
-.black-banner {
-  background-color: #111;
-}
-
-.info-position {
-  position: relative;
-  top: 500px;
-  padding-left: 2%;
-}
-
-.thatsMe {
-  margin: auto;
-  width: 100%;
-}
-
-.image-grid {
-  margin: auto;
-  display: grid;
-  padding: 2%;
-}
-
-.contact-us {
-} */
-
-/* New CSS */

@@ -13,10 +13,10 @@
     />
     <link rel="stylesheet" href="./css/main.css" />
   </head>
-  <body>
+  <body class="bg-dark">
     <div class="center-page">
       <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primarys">
           <div class="container-fluid">
             <a class="navbar-brand" href="./index.html">
               <img
@@ -65,43 +65,47 @@
         </nav>
       </header>
 
-      <main class="d-flex flex-column justify-content-center">
+      <main
+        class="d-flex flex-column justify-content-center bg-dark text-white"
+      >
         <img class="" src="./images/Artboard 1.png" alt="contact us" />
-        <div class="card">
-          <h2 class="display-3 text-center">Dont hesitate to reach out!</h2>
-          <label for="exampleInputEmail">Name</label>
-          <input
-            type="text"
-            class="form-control m-3"
-            id="inputName"
-            aria-describedby="nameHelp"
-            placeholder="Enter Name"
-          />
-          <label for="inputEmail">Email</label>
-          <input
-            type="email"
-            class="form-control m-3"
-            id="exampleInputEmail"
-            aria-describedby="emailHelp"
-            placeholder="Enter email"
-          />
-          <label for="formInputTextArea">Message</label>
-          <textarea
-            rows="5"
-            class="form-control m-3"
-            id="inputMessage"
-            aria-describedby="messageHelp"
-            placeholder="Enter Message"
-          ></textarea>
+        <div class="container">
+          <div class="card bg-dark">
+            <h2 class="text-center h1">Dont hesitate to reach out!</h2>
+            <label for="exampleInputEmail">Name</label>
+            <input
+              type="text"
+              class="form-control m-1"
+              id="inputName"
+              aria-describedby="nameHelp"
+              placeholder="Enter Name"
+            />
+            <label for="inputEmail">Email</label>
+            <input
+              type="email"
+              class="form-control m-1"
+              id="exampleInputEmail"
+              aria-describedby="emailHelp"
+              placeholder="Enter email"
+            />
+            <label for="formInputTextArea">Message</label>
+            <textarea
+              rows="5"
+              class="form-control m-1"
+              id="inputMessage"
+              aria-describedby="messageHelp"
+              placeholder="Enter Message"
+            ></textarea>
+          </div>
         </div>
       </main>
       <div>
-        <footer class="text-center">
+        <footer class="text-start fixed-bottom">
           <section
-            class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+            class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom bg-primarys text-white"
           >
             <div>
-              <span class="text-dark"
+              <span class="text-white"
                 >Here are some of our social media, Stay connected</span
               >
             </div>
