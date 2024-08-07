@@ -6,4 +6,10 @@
   background-image: url("../images/melleniumRod1.jpg");
   height: 100vh;
   background-position: 25%;
+  padding-bottom: 150px;
+  padding-left: 50px;
+}
+
+main {
+  padding-top: 90px;
 }
