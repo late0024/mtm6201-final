@@ -3,7 +3,7 @@
 }
 
 .bg-pic {
-  background-image: url("./images/melleniumRod1.jpg");
+  background-image: url("../images/melleniumRod1.jpg");
   height: 100vh;
   background-position: 25%;
 }
