@@ -1,9 +1,9 @@
 .bg-primarys {
-  background-color: #141414;!important
+  background-color: #141414;
 }
 
-.bg-pic{
-    background-image:url("./images/melleniumRod1.jpg");
-    height:100vh;
-    background-position: 25%;
+.bg-pic {
+  background-image: url("./images/melleniumRod1.jpg");
+  height: 100vh;
+  background-position: 25%;
 }
